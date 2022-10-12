@@ -242,3 +242,17 @@ local script16 = Y.Button({
 		end
 	}
 })
+
+local script17 = Y.Button({
+	Text = "Bee Swarm Simulator Autofarm",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
