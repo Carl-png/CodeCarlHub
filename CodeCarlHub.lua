@@ -22,7 +22,7 @@ local Z = X.New({
 local script1 = Y.Button({
 	Text = "Tapping Simulator GUI",
 	Callback = function()
-		loadstring(game:HttpGet("https://arches-systems.com/loader.lua",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToothlessNight/DragonHub/main/TappingSim",true))();
 	end,
 	Menu = {
 		Information = function(self)
