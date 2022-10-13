@@ -298,3 +298,17 @@ local script20 = Y.Button({
 		end
 	}
 })
+
+local script21 = Y.Button({
+	Text = "Cotton Obby GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Carl-png/CodeCarlHub/main/COGUI.lua"))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
