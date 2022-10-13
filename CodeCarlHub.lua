@@ -256,3 +256,17 @@ local script17 = Y.Button({
 		end
 	}
 })
+
+local script18 = Y.Button({
+	Text = "The Labyrinth",
+	Callback = function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/htt-py/92db22eeefad0042a6da9117501ad827/raw/VoilaHub.luau", true))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
