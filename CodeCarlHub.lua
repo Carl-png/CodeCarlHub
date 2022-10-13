@@ -284,3 +284,17 @@ local script19 = Y.Button({
 		end
 	}
 })
+
+local script20 = Y.Button({
+	Text = "Idle Heroes Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/6zgTX23r"))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
